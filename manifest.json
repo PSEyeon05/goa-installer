@@ -49,7 +49,7 @@
     },
     {
       "path": "mods/koreanpatch-neoforge-1_9_6_mc1_21_11.jar",
-      "url": "https://raw.githubusercontent.com/PSEyeon05/goa-installer/main/mods/koreanpatch-neoforge-1_9_6_mc1_21_11.jar",
+      "url": "https://raw.githubusercontent.com/PSEyeon05/goa-installer/main/pack/mods/koreanpatch-neoforge-1_9_6_mc1_21_11.jar",
       "sha256": "d535f86d9095418caa2db873963c5f50b35f3fef414019f0b1d0b1a1751a2559"
     }
   ]
