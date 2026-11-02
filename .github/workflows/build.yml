@@ -9,11 +9,11 @@ jobs:
       matrix:
         include:
           - os: windows-latest
-            args: --onefile --windowed
+            args: --onefile --windowed --icon icon.ico
             artifact: GOA-Installer-Windows
             path: dist/GOA-Installer.exe
           - os: macos-latest
-            args: --windowed
+            args: --windowed --icon icon.icns
             artifact: GOA-Installer-macOS
             path: dist/GOA-Installer-macOS.zip
     runs-on: ${{ matrix.os }}
