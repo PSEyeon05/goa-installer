@@ -15,7 +15,7 @@ jobs:
           - os: macos-latest
             args: --windowed
             artifact: GOA-Installer-macOS
-            path: dist/GOA-Installer.app
+            path: dist/GOA-Installer-macOS.zip
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
@@ -24,6 +24,9 @@ jobs:
           python-version: "3.12"
       - run: pip install pyinstaller certifi
       - run: pyinstaller ${{ matrix.args }} --name GOA-Installer installer.py
+      - name: Zip macOS app
+        if: runner.os == 'macOS'
+        run: ditto -c -k --sequesterRsrc --keepParent dist/GOA-Installer.app dist/GOA-Installer-macOS.zip
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.artifact }}
