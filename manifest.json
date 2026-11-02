@@ -1,0 +1,51 @@
+{
+  "neoforge_version": "21.11.42",
+  "files": [
+    {
+      "path": "config/iris.properties",
+      "url": "https://raw.githubusercontent.com/PSEyeon05/goa-installer/main/pack/config/iris.properties",
+      "sha256": "f90341802d5496ae06583bf1f363e7d44ced16a81a973a73c25b14bcfad9f19a",
+      "overwrite": false
+    },
+    {
+      "path": "mods/Jade-1.21.11-NeoForge-21.1.7.jar",
+      "url": "https://raw.githubusercontent.com/PSEyeon05/goa-installer/main/pack/mods/Jade-1.21.11-NeoForge-21.1.7.jar",
+      "sha256": "3cb7229b2319224c39f436cd686080ac32a11e816ee600c27f5d6698bb01fcda"
+    },
+    {
+      "path": "mods/appleskin-neoforge-mc1.21.11-3.0.8.jar",
+      "url": "https://raw.githubusercontent.com/PSEyeon05/goa-installer/main/pack/mods/appleskin-neoforge-mc1.21.11-3.0.8.jar",
+      "sha256": "176746f2a36bda5e65236caa4976272fa310acc15088ddb9cdc36c708fbe221e"
+    },
+    {
+      "path": "mods/iris-neoforge-1.10.7+mc1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/PSEyeon05/goa-installer/main/pack/mods/iris-neoforge-1.10.7%2Bmc1.21.11.jar",
+      "sha256": "a18f8e1977f3c0b7b62884a771ed74286b4fda7bc056726f76acec4fc3def2b6"
+    },
+    {
+      "path": "mods/journeymap-neoforge-1.21.11-6.0.0-beta.82.jar",
+      "url": "https://raw.githubusercontent.com/PSEyeon05/goa-installer/main/pack/mods/journeymap-neoforge-1.21.11-6.0.0-beta.82.jar",
+      "sha256": "a3863c5e7a273fd8b4d59e05898c8904ae86c7ee3ae00b835059a250e49c1e8a"
+    },
+    {
+      "path": "mods/shulkerboxtooltip-neoforge-5.2.16+1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/PSEyeon05/goa-installer/main/pack/mods/shulkerboxtooltip-neoforge-5.2.16%2B1.21.11.jar",
+      "sha256": "33639ef0ca1a4872f31ee2dc98264598f190c4bba31075db0e70dd48c5e76526"
+    },
+    {
+      "path": "mods/sodium-neoforge-0.8.12+mc1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/PSEyeon05/goa-installer/main/pack/mods/sodium-neoforge-0.8.12%2Bmc1.21.11.jar",
+      "sha256": "3277859aaed67cb5006bd517257cbf49dfb97663d56093279d5523b6da4bbd7c"
+    },
+    {
+      "path": "mods/voicechat-neoforge-1.21.11-2.6.18.jar",
+      "url": "https://raw.githubusercontent.com/PSEyeon05/goa-installer/main/pack/mods/voicechat-neoforge-1.21.11-2.6.18.jar",
+      "sha256": "e479f90abb24c5fb5e39f341f9ce64165d5d9f6eaf264674baf4b6e7eb8c594a"
+    },
+    {
+      "path": "shaderpacks/ComplementaryUnbound_r5.6.1.zip",
+      "url": "https://raw.githubusercontent.com/PSEyeon05/goa-installer/main/pack/shaderpacks/ComplementaryUnbound_r5.6.1.zip",
+      "sha256": "1c25b2b917ff6d0a511cf2edd8992e0bc66c950c401020f1b0362646bb3e2952"
+    }
+  ]
+}
