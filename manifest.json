@@ -46,6 +46,11 @@
       "path": "shaderpacks/ComplementaryUnbound_r5.6.1.zip",
       "url": "https://raw.githubusercontent.com/PSEyeon05/goa-installer/main/pack/shaderpacks/ComplementaryUnbound_r5.6.1.zip",
       "sha256": "1c25b2b917ff6d0a511cf2edd8992e0bc66c950c401020f1b0362646bb3e2952"
+    },
+    {
+      "path": "mods/koreanpatch-neoforge-1_9_6_mc1_21_11.jar",
+      "url": "https://raw.githubusercontent.com/PSEyeon05/goa-installer/main/mods/koreanpatch-neoforge-1_9_6_mc1_21_11.jar",
+      "sha256": "d535f86d9095418caa2db873963c5f50b35f3fef414019f0b1d0b1a1751a2559"
     }
   ]
 }
