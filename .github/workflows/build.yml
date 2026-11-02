@@ -1,0 +1,30 @@
+name: build-installer
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        include:
+          - os: windows-latest
+            args: --onefile --windowed
+            artifact: GOA-Installer-Windows
+            path: dist/GOA-Installer.exe
+          - os: macos-latest
+            args: --windowed
+            artifact: GOA-Installer-macOS
+            path: dist/GOA-Installer.app
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyinstaller certifi
+      - run: pyinstaller ${{ matrix.args }} --name GOA-Installer installer.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact }}
+          path: ${{ matrix.path }}
